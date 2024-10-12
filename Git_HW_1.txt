@@ -1,0 +1,139 @@
+GIT Homework 1
+
+JSON
+ 4. Создать внешний репозиторий c названием JSON.
+	https://github.com/KuzmichAE/JSON.git
+ 5. Клонировать репозиторий JSON на локальный компьютер.
+	% git clone https://github.com/KuzmichAE/JSON.git
+ 6. Внутри локального JSON создать файл “new.json”.
+	% cd JSON
+	% touch new.json
+ 7. Добавить файл под гит.
+	 % git add new.json
+ 8. Закоммитить файл.
+	% git commit -m "New_file" 
+ 9. Отправить файл на внешний GitHub репозиторий.
+	% git push
+
+ 10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
+	% vim new.json
+	{
+       	 	"Name": "Anton",
+        	"Age": 22,
+        	"Pets": 1,
+       	 	"Salary": "100.000.000$"
+	}  
+ 11. Отправить изменения на внешний репозиторий.
+	% git add new.json 
+	% git commit -m "new.json" 
+	% git push      
+ 12. Создать файл preferences.json
+	% touch preferences.json
+ 13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
+	vim preferences.json  
+	{
+     		"Favorite_movies": "Eternal sunshine of the spotless mind!",
+        	"Serials": "Shôgun",
+        	"Favorite_food": "beef_tartare",
+        	"Season": "Summer",
+        	"Favorite_coutry": "Norway"
+	}          
+ 14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
+ 	% touch touch skills.json
+	{
+        	"Instruments":  "Terminal, Git, Postman, SQL, Jmeter, CI/CD"
+	}
+ 15. Отправить сразу 2 файла на внешний репозиторий.
+	% git add .  
+	% git commit -m "file2.json"
+	% git push
+ 16. На веб интерфейсе создать файл bug_report.json.
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+	JSON/add file/create new file/"enter name file/commit changers
+ 18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
+	{
+  
+	"Num": 1,
+  	"Title": "Bug Title",
+  	"Severity": "Link"
+  	"Steps": "1. Step; 2. Step",
+  	"ExpectedResult": "text",
+  	"ActualResult": "text",
+  	"Enviroment": "win 11, chrome 107",
+  	"Comment": "text"
+	}
+ 19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+Enter button Commit changes
+ 20. Синхронизировать внешний и локальный репозиторий JSON
+ 	% git pull   
+
+XML
+ 21. Создать внешний репозиторий c названием XML.
+	https://github.com/KuzmichAE/XML.git
+ 22. Клонировать репозиторий XML на локальный компьютер.
+	% cd .. 
+	% git clone https://github.com/KuzmichAE/XML.git
+ 23. Внутри локального XML создать файл “new.xml”.
+ 	% cd xml
+	% touch new.xml
+ 24. Добавить файл под гит.
+ 	% git add new.xml
+ 25. Закоммитить файл.
+ 	% git commit -m "new"
+ 26. Отправить файл на внешний GitHub репозиторий.
+	% git push
+ 27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
+	% vim new.xml
+	<?xml version="1.0" encoding="UTF-8"?>
+	<info>
+	<Name> Anton </Name>
+	<Age> 32 </Age>
+	<Pets> 1 </Pets>
+	<Salary> 100.000.000$ </Salary>
+	</info>
+ 28. Отправить изменения на внешний репозиторий.
+	% git add new.xml
+	% git commit -m "new"
+	% git push
+ 29. Создать файл preferences.xml
+	% touch preferences.xml
+ 30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
+	% vim preferences.xml 
+	<?xml version="1.0" encoding="UTF-8"?>
+	<info2>
+	<Favorite_movies> Eternal sunshine of the spotless mind! </Favorite_movies>
+	<Serials> Shôgun </Serials>
+	<Favorite_food> beef_tartare </Favorite_food>
+	<Season> Summer </Season>
+	<Favorite_coutry> Norway </Favorite_coutry>
+	</info2>
+ 31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
+ 	% touch skills.xml
+	<?xml version="1.0" encoding="UTF-8"?>
+	<info3>
+	<skills> Terminal, Git, Postman, SQL, Jmeter, CI/CD </skills>
+	</info3>                 
+ 32. Сделать коммит в одну строку.
+	% git add skills.xml preferences.xml | git commit -am "new3" 
+ 33. Отправить сразу 2 файла на внешний репозиторий.
+ 	% git push   
+ 34. На веб интерфейсе создать файл bug_report.xml.
+ 35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+	JSON/add file/create new file/"enter name file/commit changers
+ 36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
+	<?xml version="1.0" encoding="utf-8"?>
+  		<bug>
+    		<Num name="1">
+      		<Title> Bug Title </Title>
+      		<Severity> Major </Severity>
+      		<Steps> 1. Step; 2. Step </Steps>
+      		<ExpectedResult> text </ExpectedResult>
+      		<ActualResult> text </ActualResult>
+      		<Enviroment> win 11, chrome 107 </Enviroment>
+      		<Comment> text </Comment>
+    	</Num>
+  		</bug>
+ 37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+	Enter button Commit changes
+ 38. Синхронизировать внешний и локальный репозиторий XML
+ 	% git pull
